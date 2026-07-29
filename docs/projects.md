@@ -60,7 +60,7 @@ People often behave irrationally — eating cake while dieting, or procrastinati
 <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
 
 !!! abstract "プロジェクト情報 / Project Info"
-    - **期間 / Period**：2025年7月 – 2026年3月（進行中 / Ongoing）
+    - **期間 / Period**：2025年7月 – 2027年3月（進行中 / Ongoing）
     - **種別 / Program**：共同研究 / Joint research
 
 画像・センサなど複数のモダリティを横断するマルチモーダル情報検索技術の研究開発に取り組んでいます．関連する成果として，マルチモーダルデータに基づく運転手の関心物体推定や，ライフログを用いた心拍数予測に基づく異常検知（いずれもDEIM2026発表）があります．
@@ -74,7 +74,7 @@ We are developing multimodal information retrieval technologies across modalitie
 <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
 
 !!! abstract "プロジェクト情報 / Project Info"
-    - **期間 / Period**：2025年10月 – 2026年3月（進行中 / Ongoing）
+    - **期間 / Period**：2025年10月 – 2027年3月（進行中 / Ongoing）
     - **種別 / Program**：共同研究 / Joint research
 
 消費者の魚介類喫食行動を対象に，行動経済学的な意思決定特性が食行動に与える影響をデータ分析により検討しています．関連する成果として，消費者の魚介類喫食行動における理想と現実の乖離に関する分析（電子情報通信学会LOIS研究会にて発表）があります．
