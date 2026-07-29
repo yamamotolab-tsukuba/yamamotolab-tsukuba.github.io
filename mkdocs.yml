@@ -1,0 +1,110 @@
+site_name: 山本研究室 - Yamamoto Lab
+site_description: 筑波大学 山本研究室（行動データ分析・モデリング研究室）
+site_url: https://yamamotolab-tsukuba.github.io/
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: ja
+  font:
+    text: Noto Sans JP
+    code: Roboto Mono
+  icon:
+    logo: material/chart-scatter-plot
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  palette:
+    # ライトモード
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: ダークモードに切替
+    # ダークモード
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードに切替
+  features:
+    - navigation.tabs        # 上部タブナビゲーション
+    - navigation.tabs.sticky # スクロールしてもタブを固定表示
+    - navigation.top         # トップに戻るボタン
+    - navigation.footer      # 前後ページへのフッターリンク
+    - navigation.tracking    # スクロールに応じてURLを更新
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+
+nav:
+  - ホーム / Home: index.md
+  - メンバー / Members:
+      - メンバー一覧 / Member List: members.md
+      - 教員紹介 / Faculty: faculty.md
+  - 研究内容 / Research: research.md
+  - プロジェクト / Projects: projects.md
+  - 研究業績 / Publications: publications.md
+  - 連絡先 / Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: ja
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+extra:
+  generator: false
+  social:
+    - icon: material/domain
+      link: https://www.slis.tsukuba.ac.jp/grad/index.html
+      name: 図書館情報メディア系 Institute of Library, Information and Media Science
+    - icon: material/school
+      link: https://klis.tsukuba.ac.jp/
+      name: 知識情報・図書館学類 College of Knowledge and Library Sciences
+    - icon: material/school-outline
+      link: https://informatics.tsukuba.ac.jp/
+      name: 情報学学位プログラム Master's and Doctoral Programs in Informatics
+    - icon: material/magnify
+      link: https://ir-tsukuba.github.io/
+      name: 情報検索リサーチグループ IR Group at Tsukuba
+
+copyright: "&copy; 2026 Yamamoto Lab, University of Tsukuba"

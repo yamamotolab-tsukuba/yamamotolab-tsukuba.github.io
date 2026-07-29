@@ -1,0 +1,9 @@
+# MkDocs build output
+site/
+
+# macOS
+.DS_Store
+
+# Local-only files
+.claude/
+_archive/

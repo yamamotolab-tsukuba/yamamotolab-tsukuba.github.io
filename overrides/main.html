@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{#- Google検索の「サイト名」表示用メタデータ（og:site_name + WebSite構造化データ） -#}
+{% block extrahead %}
+  <meta property="og:site_name" content="山本研究室 - Yamamoto Lab" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ page.title | default(config.site_name, true) }}" />
+  <meta property="og:url" content="{{ page.canonical_url }}" />
+  {% if page and page.is_homepage %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "山本研究室 - Yamamoto Lab",
+    "alternateName": ["山本研究室", "Yamamoto Lab", "Yamamoto Laboratory", "行動データ分析・モデリング研究室"],
+    "url": "{{ config.site_url }}"
+  }
+  </script>
+  {% endif %}
+{% endblock %}
