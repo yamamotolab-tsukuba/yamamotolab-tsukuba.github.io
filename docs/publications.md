@@ -123,21 +123,3 @@
 1. 山本 修平, 佐藤 哲司, “環境に適応する実生活情報の提示法”, マルチメディア，分散，協調とモバイル (DICOMO2012) シンポジウム, pp. 266–273, 新潟県山代温泉, 2012年7月. <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
 1. 山本 修平, 佐藤 哲司, “Twitterからの実生活情報の抽出法の提案”, 第4回データ工学と情報マネジメントに関するフォーラム (DEIM2012), 2012年3月. <span class="ptag ptag-sm">ソーシャルメディア / Social Media</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
 
-## 特許 / Patents
-
-1. 山本 修平, 戸田 浩之, 登録番号：JP6939998号, “移動状況解析装置、移動状況解析方法、及びプログラム”, 登録日：2021年9月6日. <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-1. Shuhei Yamamoto, Hiroyuki Toda, 登録番号：US20210232855A1, “Movement state recognition model training device, movement state recognition device, methods and programs therefor”, 登録日：2021年7月29日. (United States) <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-1. Shuhei Yamamoto, Hiroyuki Toda, 登録番号：US20210225008A1, “Moving state analysis device, moving state analysis method, and program”, 登録日：2021年7月22日. (United States) <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-1. 山本 修平, 戸田 浩之, 登録番号：JP6900576号, “移動状況認識モデル学習装置、移動状況認識装置、方法、及びプログラム”, 登録日：2021年6月18日. <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-1. 山本 修平, 戸田 浩之, 登録番号：JP6857547号, “移動状況認識モデル学習装置、移動状況認識装置、方法、及びプログラム”, 登録日：2021年3月24日. <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-1. 瀧本 祥章, 戸田 浩之, 山本 修平, 西村 拓哉, 登録番号：JP6807824号, “行動セグメント抽出装置及び方法”, 登録日：2020年12月10日. <span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-1. 西村 拓哉, 戸田 浩之, 山本 修平, 登録番号：JP6668277号, “行動パターン分類装置、行動パターン分類方法、及び行動パターン分類プログラム”, 登録日：2020年2月28日. <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-
-## その他の受賞 / Other Awards
-
-1. 日本電信電話株式会社 NTTサービスエボリューション研究所 論文賞, 2020年7月.
-1. 日本電信電話株式会社 NTTサービスエボリューション研究所 特許賞, 2019年4月.
-1. 日本電信電話株式会社 NTTサービスイノベーション総合研究所 優秀業績賞, 2018年12月.
-1. 日本電信電話株式会社 NTTサービスエボリューション研究所 特別賞（コラボレーション推進賞）, 2018年4月.
-1. 筑波大学 学生表彰（総代として）, 2016年3月.
-1. 筑波大学大学院図書館情報メディア研究科（総代として）, 2014年4月.
