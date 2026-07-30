@@ -45,8 +45,8 @@ See the [Projects page](projects.md) for an overview of each project.
 
 | 期間 / Period | 課題 / Project | 資金元 / Funding |
 | --- | --- | --- |
-| 2025年10月 – 2026年3月<br>Oct. 2025 – Mar. 2026 | 行動経済学的な意思決定特性が魚食行動に与える影響の検討<br>Effects of behavioral-economic decision-making characteristics on fish-eating behavior | Umios株式会社（共同研究）<br>Umios Corporation (joint research) |
-| 2025年7月 – 2026年3月<br>Jul. 2025 – Mar. 2026 | マルチモーダル情報検索<br>Multimodal information retrieval | デンソーITラボラトリ（共同研究）<br>DENSO IT Laboratory (joint research) |
+| 2025年10月 – 2027年3月<br>Oct. 2025 – Mar. 2027 | 行動経済学的な意思決定特性が魚食行動に与える影響の検討<br>Effects of behavioral-economic decision-making characteristics on fish-eating behavior | Umios株式会社（共同研究）<br>Umios Corporation (joint research) |
+| 2025年7月 – 2027年3月<br>Jul. 2025 – Mar. 2027 | マルチモーダル情報検索<br>Multimodal information retrieval | デンソーITラボラトリ（共同研究）<br>DENSO IT Laboratory (joint research) |
 | 2025年4月 – 2028年3月<br>Apr. 2025 – Mar. 2028 | データ記録時刻を基盤とした異種データの関連付けによる情報アクセス技術の構築<br>Information access technologies based on associating heterogeneous data by recording time | 科研費 基盤研究（C）（代表）<br>JSPS KAKENHI (C), PI |
 | 2024年8月 – 2026年3月<br>Aug. 2024 – Mar. 2026 | ユーザの時間選好を考慮した健康行動変容のためのメッセージ提示戦略モデルの構築<br>A message delivery strategy model for health behavior change considering users' time preference | 科研費 研究活動スタート支援（代表）<br>JSPS KAKENHI Start-up, PI |
 | 2024年7月 – 2025年3月<br>Jul. 2024 – Mar. 2025 | クロスモーダルな情報アクセス技術の研究開発を加速する大規模研究資源の構築<br>Building large-scale research resources to accelerate R&D of cross-modal information access technologies | 国立情報学研究所（公募型共同研究）<br>National Institute of Informatics (open call joint research) |
