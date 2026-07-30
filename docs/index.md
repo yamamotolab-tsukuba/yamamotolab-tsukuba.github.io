@@ -48,7 +48,20 @@ The Yamamoto Laboratory was established in FY2024. Using observable human behavi
 
 </div>
 
-**研究キーワード / Keywords**：行動モデリング，機械学習，データ分析，マルチモーダルデータ，行動経済学，行動変容 / behavioral modeling, machine learning, data analysis, multimodal data, behavioral economics, behavior change
+**研究キーワード / Keywords**：
+<span class="ptag ptag-mm">マルチモーダル / Multimodal</span>
+<span class="ptag ptag-be">行動経済学 / Behavioral Economics</span>
+<span class="ptag ptag-bc">行動変容 / Behavior Change</span>
+<span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
+<span class="ptag ptag-llm">大規模言語モデル / LLM</span>
+<span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
+<span class="ptag ptag-sm">ソーシャルメディア / Social Media</span>
+<span class="ptag ptag-ts">交通安全 / Traffic Safety</span>
+<span class="ptag ptag-ll">ライフログ / Lifelog</span>
+<span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
+<span class="ptag ptag-rec">推薦 / Recommendation</span>
+<span class="ptag ptag-eval">評価基盤 / Evaluation Resources</span>
+<span class="ptag ptag-ml">機械学習 / Machine Learning</span>
 
 !!! tip "配属を希望する方へ / For Prospective Students"
     研究室配属を検討している学生の方は，[連絡先](contact.md)ページをご覧ください．山本研究室に向いていそうな人やゼミ・研究室の運営方針を紹介しています．
