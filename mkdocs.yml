@@ -5,6 +5,7 @@ site_url: https://yamamotolab-tsukuba.github.io/
 theme:
   name: material
   custom_dir: overrides
+  favicon: assets/favicon.png
   language: ja
   font:
     text: Noto Sans JP
