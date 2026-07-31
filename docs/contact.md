@@ -55,3 +55,9 @@ We recommend applying to the [Master's and Doctoral Programs in Informatics](htt
     企業・他機関との共同研究に関するご相談は，上記メールアドレスまでご連絡ください．これまでの実施例は[プロジェクトページ](projects.md)をご覧ください．
 
     For inquiries about joint research with companies and other institutions, please contact us at the e-mail address above. See the [Projects page](projects.md) for past and ongoing collaborations.
+
+**手続きについて / Procedures**
+
+共同研究は，まず山本にご相談いただきテーマや研究計画をすり合わせたうえで，筑波大学の産学連携本部を通じて共同研究契約を締結し，開始する流れとなります．共同研究費は直接経費（研究の実施に直接必要な経費）に加え，間接経費（直接経費の30%相当額）・知的貢献費などで構成されます．制度の詳細は[筑波大学産学連携本部の共同研究のページ](https://www.sanrenhonbu.tsukuba.ac.jp/joint-research/for_company-kyoudou/){:target="_blank"}をご覧ください．
+
+A joint research project typically starts with a consultation with Prof. Yamamoto to align on the topic and research plan, followed by a joint research agreement concluded through the University of Tsukuba's Headquarters for Industry-University Collaboration. The research budget consists of direct costs, indirect costs (30% of direct costs), and an intellectual contribution fee. For details, see the [university's joint research page](https://www.sanrenhonbu.tsukuba.ac.jp/joint-research/for_company-kyoudou/){:target="_blank"} (in Japanese).
