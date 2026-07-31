@@ -367,6 +367,24 @@
   border-radius: 1em;
 }
 
+/* 研究業績の表示切り替え（セクション別／年月順） */
+.md-typeset .pub-sort {
+  margin: 1.2em 0 0.4em;
+}
+
+.md-typeset .pub-sort .md-button {
+  margin: 0 0.4em 0 0;
+  padding: 0.15em 1.2em;
+  font-size: 0.65rem;
+  border-radius: 1em;
+}
+
+.md-typeset .pub-sort .md-button--active {
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: #fff;
+}
+
 [data-md-color-scheme="slate"] .ptag-mm   { color: #64b5f6; }
 [data-md-color-scheme="slate"] .ptag-be   { color: #ffb74d; }
 [data-md-color-scheme="slate"] .ptag-bc   { color: #81c784; }
