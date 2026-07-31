@@ -255,6 +255,18 @@
   white-space: nowrap;
 }
 
+/* メンバーカード右上の区分アイコン */
+.md-typeset .lab-members li > .twemoji {
+  float: right;
+  color: var(--md-primary-fg-color);
+  font-size: 1.3em;
+  opacity: 0.85;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .lab-members li > .twemoji {
+  color: #6cb2f0;
+}
+
 /* ---- 受賞バッジ（ホバーで賞名をツールチップ表示） ---- */
 .md-typeset .award-badge {
   display: inline-block;
