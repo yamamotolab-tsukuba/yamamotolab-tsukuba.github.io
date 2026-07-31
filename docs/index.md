@@ -23,6 +23,10 @@ Understanding human behavior from data — We analyze behavioral and decision-ma
 
 The Yamamoto Laboratory was established in FY2024. Using observable human behavioral data, our work spans the full pipeline from "understanding behavioral principles (Science) → behavioral modeling → behavior change support (Technology)". Our lab is also a member of the [IR Group at Tsukuba](https://ir-tsukuba.github.io/){:target="_blank"}, a collaboration of four laboratories advancing information retrieval research at the University of Tsukuba.
 
+本研究室は[筑波大学 図書館情報メディア系](https://www.slis.tsukuba.ac.jp/grad/index.html){:target="_blank"}に所属しています．学生の受け入れは，学部では[知識情報・図書館学類（知識情報システム主専攻）](https://klis.tsukuba.ac.jp/){:target="_blank"}，大学院では[情報学学位プログラム](https://informatics.tsukuba.ac.jp/){:target="_blank"}を通じて行っています．
+
+Our laboratory belongs to the [Institute of Library, Information and Media Science](https://www.slis.tsukuba.ac.jp/grad/index.html){:target="_blank"} at the University of Tsukuba. We accept undergraduate students through the [College of Knowledge and Library Sciences (Knowledge and Information Systems major)](https://klis.tsukuba.ac.jp/){:target="_blank"} and graduate students through the [Master's and Doctoral Programs in Informatics](https://informatics.tsukuba.ac.jp/){:target="_blank"}.
+
 <div class="lab-pillars grid cards" markdown>
 
 - :material-head-question-outline:{ .lg .middle } __行動メカニズムの解明 / Understanding Behavioral Mechanisms__
