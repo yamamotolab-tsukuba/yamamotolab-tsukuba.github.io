@@ -71,6 +71,7 @@
 
 ## 国内会議 / Domestic Conferences (in Japanese)
 
+1. 徐 哲林, 山本 修平, “少量の履歴書サンプルを用いたLLMによる履歴書自動評価フレームワークの開発”, 人工知能学会全国大会 (JSAI2026), 1F4-OS-10b-05, Gメッセ群馬, 2026年6月.<br>[DOI](https://doi.org/10.11517/pjsai.JSAI2026.0_1F4OS10b05){ .doi-link } <span class="ptag ptag-llm">大規模言語モデル / LLM</span>
 1. 山本 修平, 古田 久美子, 東 瑞穂, 本多 倫子, 増田 康之, “消費者の魚介類喫食行動における理想と現実の乖離に関する分析”, 電子情報通信学会 LOIS研究会 技術報告, Vol. 125, No. 375, pp. 19-24, 大濱信泉記念館（沖縄・石垣島）, 2026年3月.<br>[Link](https://ken.ieice.org/ken/paper/20260302zcSe/){ .doi-link } <span class="award-badge" title="グッドプレゼンテーション賞">🏆 受賞 / Award</span> <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
 1. 馬田 光琉, 山本 修平, “意思決定を特徴づける形容詞的修飾を用いた大規模言語モデルの実証的分析”, 第18回データ工学と情報マネジメントに関するフォーラム（DEIM2026）, 神戸国際会議場, 2026年3月.<br>[Link](https://pub.confit.atlas.jp/ja/event/deim2026/presentation/7K-05){ .doi-link } <span class="award-badge" title="学生プレゼンテーション賞">🏆 受賞 / Award</span> <span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span>
 1. 後藤 侑美, 山本 修平, “就職活動における情報探索行動と時間選好の関係分析”, 第18回データ工学と情報マネジメントに関するフォーラム（DEIM2026）, 神戸国際会議場, 2026年3月.<br>[Link](https://pub.confit.atlas.jp/ja/event/deim2026/presentation/7K-02){ .doi-link } <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
