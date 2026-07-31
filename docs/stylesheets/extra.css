@@ -243,8 +243,8 @@
 }
 
 .lab-members .member-grade {
-  display: block;
-  width: fit-content;
+  display: inline-block;
+  vertical-align: middle;
   margin: 0 0 0.5em;
   padding: 0.08em 0.7em;
   border-radius: 1em;
@@ -255,11 +255,12 @@
   white-space: nowrap;
 }
 
-/* メンバーカード右上の区分アイコン */
+/* メンバーカードの区分アイコン（学年ラベルの左） */
 .md-typeset .lab-members li > .twemoji {
-  float: right;
   color: var(--md-primary-fg-color);
-  font-size: 1.3em;
+  font-size: 1.2em;
+  margin-right: 0.3em;
+  vertical-align: middle;
   opacity: 0.85;
 }
 

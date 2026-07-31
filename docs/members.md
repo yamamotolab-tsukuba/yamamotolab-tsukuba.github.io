@@ -21,11 +21,11 @@
 
 <div class="lab-members" markdown>
 
-- :material-account-school:{ .middle } <span class="member-grade">M2</span>テイ エキセイ / Yicheng Ding<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-rec">推薦 / Recommendation</span>
-- :material-account-school:{ .middle } <span class="member-grade">M1</span>池田 智哉 / Tomoya Ikeda<br><span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-mm">マルチモーダル / Multimodal</span>
-- :material-account-school:{ .middle } <span class="member-grade">M1</span>馬田 光琉 / Hikaru Umada<br><span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span>
-- :material-account-school:{ .middle } <span class="member-grade">M1</span>林 央祐 / Ousuke Hayashi<br><span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-bc">行動変容 / Behavior Change</span> <span class="ptag ptag-sm">ソーシャルメディア / Social Media</span>
-- :material-account-school:{ .middle } <span class="member-grade">M1</span>山﨑 豪士 / Takeshi Yamazaki<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ts">交通安全 / Traffic Safety</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
+- :material-account-school:{ .middle } <span class="member-grade">M2</span><br>テイ エキセイ / Yicheng Ding<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-rec">推薦 / Recommendation</span>
+- :material-account-school:{ .middle } <span class="member-grade">M1</span><br>池田 智哉 / Tomoya Ikeda<br><span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-mm">マルチモーダル / Multimodal</span>
+- :material-account-school:{ .middle } <span class="member-grade">M1</span><br>馬田 光琉 / Hikaru Umada<br><span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span>
+- :material-account-school:{ .middle } <span class="member-grade">M1</span><br>林 央祐 / Ousuke Hayashi<br><span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-bc">行動変容 / Behavior Change</span> <span class="ptag ptag-sm">ソーシャルメディア / Social Media</span>
+- :material-account-school:{ .middle } <span class="member-grade">M1</span><br>山﨑 豪士 / Takeshi Yamazaki<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ts">交通安全 / Traffic Safety</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
 
 </div>
 
@@ -33,11 +33,11 @@
 
 <div class="lab-members" markdown>
 
-- :material-account-edit:{ .middle } <span class="member-grade">B4</span>今西 佳穂 / Kaho Imanishi<br><span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-bc">行動変容 / Behavior Change</span>
-- :material-account-edit:{ .middle } <span class="member-grade">B4</span>奥山 あかり / Akari Okuyama<br><span class="ptag ptag-sm">ソーシャルメディア / Social Media</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-- :material-account-edit:{ .middle } <span class="member-grade">B4</span>山城 映二 / Eiji Yamashiro<br><span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
-- :material-account-edit:{ .middle } <span class="member-grade">B4</span>本城 妙佳 / Taeka Honjo<br><span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
-- :material-account-edit:{ .middle } <span class="member-grade">B4</span>小中 玲爾 / Reiji Konaka<br><span class="ptag ptag-bc">行動変容 / Behavior Change</span> <span class="ptag ptag-rec">推薦 / Recommendation</span>
+- :material-account-edit:{ .middle } <span class="member-grade">B4</span><br>今西 佳穂 / Kaho Imanishi<br><span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-bc">行動変容 / Behavior Change</span>
+- :material-account-edit:{ .middle } <span class="member-grade">B4</span><br>奥山 あかり / Akari Okuyama<br><span class="ptag ptag-sm">ソーシャルメディア / Social Media</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
+- :material-account-edit:{ .middle } <span class="member-grade">B4</span><br>山城 映二 / Eiji Yamashiro<br><span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
+- :material-account-edit:{ .middle } <span class="member-grade">B4</span><br>本城 妙佳 / Taeka Honjo<br><span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
+- :material-account-edit:{ .middle } <span class="member-grade">B4</span><br>小中 玲爾 / Reiji Konaka<br><span class="ptag ptag-bc">行動変容 / Behavior Change</span> <span class="ptag ptag-rec">推薦 / Recommendation</span>
 
 </div>
 
@@ -45,8 +45,8 @@
 
 <div class="lab-members" markdown>
 
-- :material-account-search:{ .middle } <span class="member-grade">研究生 / RS</span>ラン テンイ / Tianyi Lan<br><span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-- :material-account-search:{ .middle } <span class="member-grade">研究生 / RS</span>マ ウケン / Yuxuan Ma<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
+- :material-account-search:{ .middle } <span class="member-grade">研究生 / RS</span><br>ラン テンイ / Tianyi Lan<br><span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
+- :material-account-search:{ .middle } <span class="member-grade">研究生 / RS</span><br>マ ウケン / Yuxuan Ma<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
 
 </div>
 
@@ -56,9 +56,9 @@
 
 <div class="lab-members" markdown>
 
-- :material-school:{ .middle } <span class="member-grade">修士 / Master</span>山口 龍空 / Ryuku Yamaguchi<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
-- :material-school:{ .middle } <span class="member-grade">学士 / Bachelor</span>後藤 侑美 / Yuumi Goto<br><span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
-- :material-school:{ .middle } <span class="member-grade">学士 / Bachelor</span>水口 陸 / Riku Mizuguchi<br><span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
+- :material-school:{ .middle } <span class="member-grade">修士 / Master</span><br>山口 龍空 / Ryuku Yamaguchi<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
+- :material-school:{ .middle } <span class="member-grade">学士 / Bachelor</span><br>後藤 侑美 / Yuumi Goto<br><span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
+- :material-school:{ .middle } <span class="member-grade">学士 / Bachelor</span><br>水口 陸 / Riku Mizuguchi<br><span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
 
 </div>
 
