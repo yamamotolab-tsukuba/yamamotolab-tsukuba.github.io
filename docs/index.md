@@ -19,13 +19,9 @@ Understanding human behavior from data — We analyze behavioral and decision-ma
 
 ## About Us
 
-山本研究室は2024年度に始まった新しい研究室で，観測可能な人の行動データを対象に，「行動原理の解明（Science）→ 行動モデリング → 行動の変容・支援（Technology）」を一気通貫で扱うことを特徴としています．また，筑波大学で情報検索研究を展開する4研究室が連携する[情報検索リサーチグループ（IR Group at Tsukuba）](https://ir-tsukuba.github.io/){:target="_blank"}の構成研究室でもあります．
+山本研究室は，Webやリアルで観測される人間の行動や意思決定に関わるデータを対象に，「行動原理の解明→ 行動モデリング → 行動の変容・支援」を一気通貫で扱うことを特徴としています．また，筑波大学で情報検索研究を展開する4研究室が連携する[情報検索リサーチグループ（IR Group at Tsukuba）](https://ir-tsukuba.github.io/){:target="_blank"}の構成研究室でもあり，情報検索に関わる研究開発にも取り組んでいます．本研究室における学生の受け入れは，学部では[筑波大学 情報学群 知識情報・図書館学類](https://klis.tsukuba.ac.jp/){:target="_blank"}，大学院では[筑波大学大学院 人間総合科学学術院 人間総合科学研究群 情報学学位プログラム](https://informatics.tsukuba.ac.jp/){:target="_blank"}を通じて行っています．
 
-The Yamamoto Laboratory was established in FY2024. Using observable human behavioral data, our work spans the full pipeline from "understanding behavioral principles (Science) → behavioral modeling → behavior change support (Technology)". Our lab is also a member of the [IR Group at Tsukuba](https://ir-tsukuba.github.io/){:target="_blank"}, a collaboration of four laboratories advancing information retrieval research at the University of Tsukuba.
-
-本研究室は[筑波大学 図書館情報メディア系](https://www.slis.tsukuba.ac.jp/grad/index.html){:target="_blank"}に所属しています．学生の受け入れは，学部では[知識情報・図書館学類（知識情報システム主専攻）](https://klis.tsukuba.ac.jp/){:target="_blank"}，大学院では[情報学学位プログラム](https://informatics.tsukuba.ac.jp/){:target="_blank"}を通じて行っています．
-
-Our laboratory belongs to the [Institute of Library, Information and Media Science](https://www.slis.tsukuba.ac.jp/grad/index.html){:target="_blank"} at the University of Tsukuba. We accept undergraduate students through the [College of Knowledge and Library Sciences (Knowledge and Information Systems major)](https://klis.tsukuba.ac.jp/){:target="_blank"} and graduate students through the [Master's and Doctoral Programs in Informatics](https://informatics.tsukuba.ac.jp/){:target="_blank"}.
+The Yamamoto Laboratory works with data on human behavior and decision-making observed on the Web and in the real world, covering the full pipeline of "understanding behavioral principles → behavioral modeling → behavior change support". Our lab is also a member of the [IR Group at Tsukuba](https://ir-tsukuba.github.io/){:target="_blank"}, a collaboration of four laboratories advancing information retrieval research at the University of Tsukuba, and is engaged in research and development related to information retrieval. We accept undergraduate students through the [College of Knowledge and Library Sciences, School of Informatics](https://klis.tsukuba.ac.jp/){:target="_blank"}, and graduate students through the [Master's and Doctoral Programs in Informatics](https://informatics.tsukuba.ac.jp/){:target="_blank"}, Graduate School of Comprehensive Human Sciences, University of Tsukuba.
 
 <div class="lab-pillars grid cards" markdown>
 
