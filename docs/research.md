@@ -2,9 +2,9 @@
 
 ## 研究室の目標 / Our Goal
 
-リアルやWebにおける，観測可能な人の行動データをもとに，(1) 人文科学分野の知見を用いた人の**行動メカニズムの解明**，(2) 情報技術の道具を用いた人の**行動や意思決定のモデル化**，(3) 人の**行動を変容・支援**するための技術や方法論の構築，に取り組んでいます．「行動原理の解明（Science）→ 行動モデリング → 行動の変容・支援（Technology）」を一気通貫で扱うことが研究室の特徴です．
+Webやリアルで観測される人間の行動や意思決定に関わるデータをもとに，(1) 人文科学分野の知見を用いた人の**行動メカニズムの解明**，(2) 情報技術の道具を用いた人の**行動や意思決定のモデル化**，(3) 人の**行動を変容・支援**するための技術や方法論の構築，に取り組んでいます．「行動原理の解明→ 行動モデリング → 行動の変容・支援」を一気通貫で扱うことが研究室の特徴です．また，人間の行動や意思決定を観測したマルチモーダルデータに対する情報検索技術の研究開発にも取り組んでいます．
 
-Based on observable human behavioral data collected on the Web and in the real world, we work on (1) **understanding behavioral mechanisms** using knowledge from the humanities, (2) **modeling human behavior and decision-making** with tools from information technology, and (3) building technologies and methodologies for **behavior change support**. A distinctive feature of our lab is that we cover the whole pipeline: "understanding behavioral principles (Science) → behavioral modeling → behavior change support (Technology)".
+Based on data on human behavior and decision-making observed on the Web and in the real world, we work on (1) **understanding behavioral mechanisms** using knowledge from the humanities, (2) **modeling human behavior and decision-making** with tools from information technology, and (3) building technologies and methodologies for **behavior change support**. A distinctive feature of our lab is that we cover the whole pipeline: "understanding behavioral principles → behavioral modeling → behavior change support". We also develop information retrieval technologies for multimodal data capturing human behavior and decision-making.
 
 ## 研究テーマ / Research Themes
 
