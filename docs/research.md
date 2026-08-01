@@ -30,7 +30,7 @@ Why are we drawn to limited-edition products, and why do we procrastinate until 
 
     Instead of relying on questionnaires, we developed a Transformer-based model that estimates an individual's present bias (time-discounting type) from everyday behavior logs — continuous data such as heart rate and event data such as meals, sleep, and weight measurements. With 28-day behavior logs from 257 participants, the proposed method outperformed LSTMs and standard Transformers. (Published in IEICE Transactions, 2025)
 
-    ![行動履歴からの現在バイアス推定の概要図](img/research_present_bias.jpg)
+    ![行動履歴からの現在バイアス推定の概要図](img/research_present_bias.jpg?v=2)
 
     <small>図は論文の内容をもとにNotebookLMとChatGPTにより生成<br>The figure was generated with NotebookLM and ChatGPT based on the original paper.</small>
 
@@ -73,6 +73,6 @@ How can we steer irrational human behavior in a better direction? Nudges leverag
 
     We conducted a four-week experiment with 197 participants in which reminder, immediate-reward, and delayed-reward messages were delivered according to each participant's time preference. Messages emphasizing "small immediate rewards" effectively induce and sustain healthy behavior for people with strong time preference, while "large future rewards" work better for people with weak time preference. (Awarded the {==Best Paper Award==} at DICOMO2023)
 
-    ![時間選好を考慮したパーソナライズ・メッセージングの概要図](img/research_timepref_messaging.jpg)
+    ![時間選好を考慮したパーソナライズ・メッセージングの概要図](img/research_timepref_messaging.jpg?v=2)
 
     <small>図は論文の内容をもとにNotebookLMとChatGPTにより生成<br>The figure was generated with NotebookLM and ChatGPT based on the original paper.</small>
