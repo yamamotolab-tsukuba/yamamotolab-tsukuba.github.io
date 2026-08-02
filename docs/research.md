@@ -47,7 +47,7 @@ Human behavior accumulates as multimodal data — collections of multiple data f
 
     We developed a technology that enables mutual retrieval between sensor data (e.g., heart rate and GPS) and first-person images. Training samples are automatically extracted based on temporal closeness, which integrates periodicity such as time of day and day of week, and each modality is projected into a shared vector space by dedicated encoders. On the large-scale lifelog dataset LSC'24, the proposed method significantly outperformed conventional approaches in retrieval accuracy (MRR). (Published at MMM2025)
 
-    ![時間的近接性によるクロスモーダル検索の概要図](img/research_crossmodal_retrieval.jpg)
+    ![時間的近接性によるクロスモーダル検索の概要図](img/research_crossmodal_retrieval.jpg?v=2)
 
     <small>図は論文の内容をもとにNotebookLMとChatGPTにより生成<br>The figure was generated with NotebookLM and ChatGPT based on the original paper.</small>
 
