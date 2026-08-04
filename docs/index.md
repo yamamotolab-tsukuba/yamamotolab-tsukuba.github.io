@@ -48,20 +48,20 @@ The Yamamoto Laboratory works with data on human behavior and decision-making ob
 
 </div>
 
-**研究キーワード / Keywords**：
-<span class="ptag ptag-mm">マルチモーダル / Multimodal</span>
-<span class="ptag ptag-be">行動経済学 / Behavioral Economics</span>
-<span class="ptag ptag-bc">行動変容 / Behavior Change</span>
-<span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
-<span class="ptag ptag-llm">大規模言語モデル / LLM</span>
-<span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
-<span class="ptag ptag-sm">ソーシャルメディア / Social Media</span>
-<span class="ptag ptag-ts">交通安全 / Traffic Safety</span>
-<span class="ptag ptag-ll">ライフログ / Lifelog</span>
-<span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
-<span class="ptag ptag-rec">推薦 / Recommendation</span>
-<span class="ptag ptag-eval">評価基盤 / Evaluation Resources</span>
-<span class="ptag ptag-ml">機械学習 / Machine Learning</span>
+**研究キーワード / Keywords**（カーソルを合わせると説明が表示されます / hover for details）：
+<span class="ptag ptag-mm" title="テキスト・画像・センサなど複数種類のデータを組み合わせて扱うアプローチです．研究室では，映像とセンサからのヒヤリハット検知や，運転手の関心物体推定などに取り組んでいます． / Combining multiple types of data such as text, images, and sensors. We work on near-miss detection and driver-interest estimation from video and sensor data.">マルチモーダル / Multimodal</span>
+<span class="ptag ptag-be" title="人の意思決定に潜む非合理性（バイアス）を扱う学問分野です．研究室では，損失回避や時間割引といった傾向を実際の行動データから定量的に明らかにしています． / A field studying the irrationality (biases) behind human decision-making. We quantify tendencies such as loss aversion and time discounting from real behavioral data.">行動経済学 / Behavioral Economics</span>
+<span class="ptag ptag-bc" title="人の行動を良い方向に変えるための技術・方法論です．研究室では，個人の時間選好に合わせた健康行動促進メッセージングなどに取り組んでいます． / Technologies and methodologies for changing behavior for the better, such as health-promoting messaging tailored to each person's time preference.">行動変容 / Behavior Change</span>
+<span class="ptag ptag-ir" title="大量のデータから必要な情報を見つけ出す技術です．研究室では，センサと画像のクロスモーダル検索や，情報探索行動を考慮した論文推薦に取り組んでいます． / Technologies for finding relevant information in large data collections, such as cross-modal retrieval of sensor and image data and research paper recommendation.">情報検索 / Information Retrieval</span>
+<span class="ptag ptag-llm" title="ChatGPTに代表される大規模言語モデル（LLM）です．研究室では，LLMが持つ意思決定バイアスの分析や，マルチモーダルLLMの文脈内学習の研究に取り組んでいます． / Large language models such as ChatGPT. We analyze decision-making biases in LLMs and study in-context learning of multimodal LLMs.">大規模言語モデル / LLM</span>
+<span class="ptag ptag-uba" title="サービスの利用履歴などから人の行動パターンを分析する研究です．研究室では，プログラミングコンテストの参加行動やSNSの投稿行動の分析などに取り組んできました． / Analyzing behavioral patterns from usage histories, such as participation behavior in programming contests and posting behavior on social media.">ユーザ行動分析 / User Behavior Analysis</span>
+<span class="ptag ptag-sm" title="X（旧Twitter）などのソーシャルメディアを対象とした研究です．研究室では，誹謗中傷投稿の拡散を抑制する介入戦略や投稿行動の分析に取り組んでいます． / Research on social media platforms, including intervention strategies to suppress the spread of abusive posts and analyses of posting behavior.">ソーシャルメディア / Social Media</span>
+<span class="ptag ptag-ts" title="ドライブレコーダデータを用いた交通安全の研究です．研究室では，ヒヤリハットの自動検知・分類や，運転手の関心物体推定に取り組んでいます． / Traffic safety research using drive recorder data, including automatic near-miss detection and estimating objects of driver interest.">交通安全 / Traffic Safety</span>
+<span class="ptag ptag-ll" title="写真・心拍・行動履歴など，日々の生活を記録したデータです．研究室では，ライフログのクロスモーダル検索や，心拍数予測に基づく異常検知に取り組んでいます． / Records of daily life such as photos, heart rate, and activity histories. We work on cross-modal lifelog retrieval and anomaly detection based on heart-rate prediction.">ライフログ / Lifelog</span>
+<span class="ptag ptag-hc" title="人々の健康を支援する研究領域です．研究室では，健康行動の継続支援や，行動データに基づく健康状態の理解・異常検知に取り組んでいます． / Research supporting people's health, including sustained health-behavior support and understanding health conditions from behavioral data.">ヘルスケア / Healthcare</span>
+<span class="ptag ptag-rec" title="ユーザの好みや行動に合わせて情報を提示する技術です．研究室では，情報探索行動を考慮した論文推薦システムなどに取り組んでいます． / Technologies for suggesting information matched to each user, such as research paper recommendation considering information-seeking behavior.">推薦 / Recommendation</span>
+<span class="ptag ptag-eval" title="情報アクセス技術を公平に評価するためのデータセットやベンチマークを構築する研究です．研究室では，評価会議NTCIRのタスク（Transfer-2）の運営などに取り組んでいます． / Building datasets and benchmarks for fair evaluation of information access technologies, including organizing the NTCIR Transfer-2 task.">評価基盤 / Evaluation Resources</span>
+<span class="ptag ptag-ml" title="データからパターンを学習する技術で，研究室の基盤となる道具です．Transformerなどの深層学習モデルを行動データやマルチモーダルデータに適用しています． / Techniques for learning patterns from data — our core toolset. We apply deep learning models such as Transformers to behavioral and multimodal data.">機械学習 / Machine Learning</span>
 
 !!! tip "配属を希望する方へ / For Prospective Students"
     研究室配属を検討している学生の方は，[連絡先](contact.md)ページをご覧ください．山本研究室に向いていそうな人やゼミ・研究室の運営方針を紹介しています．

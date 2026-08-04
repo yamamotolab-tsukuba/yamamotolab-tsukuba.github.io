@@ -255,6 +255,11 @@
   white-space: nowrap;
 }
 
+/* 説明ツールチップ付きバッジ（ホームの研究キーワード） */
+.md-typeset .ptag[title] {
+  cursor: help;
+}
+
 /* メンバーカードの区分アイコン（学年ラベルの左） */
 .md-typeset .lab-members li > .twemoji {
   color: var(--md-primary-fg-color);
