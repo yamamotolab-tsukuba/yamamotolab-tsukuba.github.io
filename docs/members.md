@@ -93,4 +93,4 @@
   <span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
 - 山﨑 豪士：「マルチモーダルデータに基づく運転手の関心物体推定に関する研究」<br>
   Takeshi Yamazaki: Estimating objects of driver interest based on multimodal data<br>
-  <span class="ptag ptag-mm">マルチモーダル / Multimodal</span>
+  <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
