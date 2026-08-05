@@ -1,0 +1,419 @@
+/* ===============================================
+   山本研究室 カスタムデザイン
+   =============================================== */
+
+/* ---- ブランドカラー（深い青：研究室スライドの配色に合わせる） ---- */
+:root {
+  --md-primary-fg-color: #164e8c;
+  --md-primary-fg-color--light: #3a76b8;
+  --md-primary-fg-color--dark: #0e3763;
+  --md-accent-fg-color: #0e7fd8;
+  --lab-accent-gradient: linear-gradient(135deg, #164e8c 0%, #0e7fd8 100%);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #123f70;
+  --md-primary-fg-color--light: #3a76b8;
+  --md-primary-fg-color--dark: #0e3763;
+  --md-accent-fg-color: #4da3e8;
+  --md-default-bg-color: #14181f;
+  --lab-accent-gradient: linear-gradient(135deg, #1a5da8 0%, #4da3e8 100%);
+  /* リンク色：プライマリ（濃紺）のままだと暗背景で視認性が悪いため明るい青に */
+  --md-typeset-a-color: #6cb2f0;
+}
+
+/* palette.css の複合セレクタ（scheme×primary）より優先させるための上書き */
+[data-md-color-scheme="slate"][data-md-color-primary="custom"] {
+  --md-typeset-a-color: #6cb2f0;
+}
+
+/* ---- タイポグラフィ ---- */
+/* 本文をひと回り小さく（Material標準 .8rem=16px → .75rem=15px） */
+.md-typeset {
+  font-size: 0.75rem;
+  line-height: 1.75;
+}
+
+.md-typeset h1 {
+  font-size: 1.7em;
+  font-weight: 500;
+  color: var(--md-primary-fg-color);
+  letter-spacing: 0.02em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: #7ab5ec;
+}
+
+.md-typeset h2 {
+  font-size: 1.35em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--md-default-fg-color--lighter);
+  margin-top: 2.2em;
+}
+
+.md-typeset h3 {
+  font-size: 1.12em;
+  font-weight: 600;
+}
+
+.md-typeset h4 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/* ---- ヘッダー（フラットな単色で統一） ---- */
+.md-header {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-tabs {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+.md-header__topic .md-ellipsis,
+.md-header__title .md-ellipsis {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+/* ---- レイアウト：左ナビゲーションを非表示にしてコンテンツ幅を拡大 ---- */
+/* 上部タブが表示されるデスクトップ幅では左サイドバーは冗長なので隠す
+   （狭い画面ではハンバーガーメニューとして必要なため残す） */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+}
+
+/* ページ全体の最大幅も少し広げる（Material標準は61rem） */
+.md-grid {
+  max-width: 66rem;
+}
+
+/* ---- トップページのヒーロー ---- */
+.lab-hero {
+  margin: 0.5em 0 2em;
+  padding: 2em 2em;
+  border-radius: 0.6em;
+  background: var(--lab-accent-gradient);
+  color: #fff;
+}
+
+.lab-hero h1 {
+  color: #fff !important;
+  margin: 0 0 0.4em;
+  font-size: 1.7em;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.lab-hero p {
+  margin: 0.4em 0;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.75em;
+}
+
+.lab-hero .md-button {
+  margin: 0.8em 0.6em 0 0;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.lab-hero .md-button:hover {
+  background-color: #fff;
+  color: var(--md-primary-fg-color);
+  border-color: #fff;
+}
+
+/* ---- トップページ「3つの柱」：ワイド画面では3列横並び ---- */
+@media screen and (min-width: 60em) {
+  .md-typeset .lab-pillars.grid.cards > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---- グリッドカード（メンバー・研究の柱） ---- */
+.md-typeset .grid.cards > ol > li,
+.md-typeset .grid.cards > ul > li {
+  border-radius: 0.5em;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 1px 4px rgba(22, 78, 140, 0.08);
+  transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+}
+
+.md-typeset .grid.cards > ol > li:hover,
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 6px 16px rgba(22, 78, 140, 0.16);
+  transform: translateY(-2px);
+}
+
+/* カード先頭のアイコンを大きく */
+.md-typeset .grid.cards .lg.middle {
+  color: var(--md-accent-fg-color);
+}
+
+/* ---- ニュース（カード型グリッド） ---- */
+.md-typeset .lab-news ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.8rem;
+}
+
+.lab-news li {
+  margin: 0 !important;
+  padding: 0.9em 1.1em 1em;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5em;
+  background-color: var(--md-default-bg-color);
+  box-shadow: 0 1px 4px rgba(22, 78, 140, 0.08);
+  transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+}
+
+.lab-news li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 6px 16px rgba(22, 78, 140, 0.16);
+  transform: translateY(-2px);
+}
+
+.lab-news .news-date {
+  display: inline-block;
+  margin: 0 0 0.6em;
+  padding: 0.1em 0.7em;
+  border-radius: 1em;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-size: 0.72em;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* 日付バッジは各カードの先頭行に単独表示 */
+.lab-news li > .news-date {
+  display: block;
+  width: fit-content;
+}
+
+/* ---- 業績ページ：受賞ハイライト（criticのmark）を上品に ---- */
+.md-typeset .critic.highlight,
+.md-typeset mark {
+  background-color: rgba(255, 213, 79, 0.45);
+  border-radius: 0.2em;
+  padding: 0 0.25em;
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .critic.highlight,
+[data-md-color-scheme="slate"] .md-typeset mark {
+  background-color: rgba(255, 213, 79, 0.25);
+  color: inherit;
+}
+
+/* ---- メンバー（カード型グリッド） ---- */
+.md-typeset .lab-members ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: 0.7rem;
+}
+
+.md-typeset .lab-members li {
+  margin: 0 !important;
+  padding: 0.8em 1em 0.9em;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5em;
+  background-color: var(--md-default-bg-color);
+  box-shadow: 0 1px 4px rgba(22, 78, 140, 0.08);
+  transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+}
+
+.md-typeset .lab-members li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 6px 16px rgba(22, 78, 140, 0.16);
+  transform: translateY(-2px);
+}
+
+.lab-members .member-grade {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0.5em;
+  padding: 0.08em 0.7em;
+  border-radius: 1em;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-size: 0.68em;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* 説明ツールチップ付きバッジ（ホームの研究キーワード） */
+.md-typeset .ptag[title] {
+  cursor: help;
+}
+
+/* メンバーカードの区分アイコン（学年ラベルの左） */
+.md-typeset .lab-members li > .twemoji {
+  color: var(--md-primary-fg-color);
+  font-size: 1.2em;
+  margin-right: 0.3em;
+  vertical-align: middle;
+  opacity: 0.85;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .lab-members li > .twemoji {
+  color: #6cb2f0;
+}
+
+/* ---- 受賞バッジ（ホバーで賞名をツールチップ表示） ---- */
+.md-typeset .award-badge {
+  display: inline-block;
+  margin: 0 0.12em;
+  padding: 0.02em 0.6em;
+  border-radius: 1em;
+  background: rgba(255, 179, 0, 0.16);
+  border: 1px solid rgba(255, 179, 0, 0.45);
+  color: #9a6b00;
+  font-size: 0.6rem;
+  font-weight: 700;
+  line-height: 1.6;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+  cursor: help;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .award-badge {
+  color: #ffd54f;
+}
+
+/* ---- DOIリンク（アウトライン型バッジ） ---- */
+.md-typeset a.doi-link {
+  display: inline-block;
+  margin: 0 0.12em;
+  padding: 0 0.6em;
+  border: 1px solid var(--md-accent-fg-color);
+  border-radius: 1em;
+  color: var(--md-accent-fg-color);
+  font-size: 0.6rem;
+  font-weight: 700;
+  line-height: 1.55;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+}
+
+.md-typeset a.doi-link:hover {
+  background-color: var(--md-accent-fg-color);
+  color: #fff;
+}
+
+/* ---- 業績トピックラベル（バッジ） ---- */
+.md-typeset .ptag {
+  display: inline-block;
+  margin: 0 0.12em;
+  padding: 0.02em 0.6em;
+  border-radius: 1em;
+  font-size: 0.6rem;
+  font-weight: 700;
+  line-height: 1.6;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+}
+
+.ptag-mm   { background: rgba(25, 118, 210, 0.13);  color: #1565c0; }
+.ptag-be   { background: rgba(239, 108, 0, 0.14);   color: #e65100; }
+.ptag-bc   { background: rgba(46, 125, 50, 0.14);   color: #2e7d32; }
+.ptag-ir   { background: rgba(0, 121, 107, 0.14);   color: #00695c; }
+.ptag-llm  { background: rgba(106, 27, 154, 0.12);  color: #6a1b9a; }
+.ptag-uba  { background: rgba(194, 24, 91, 0.11);   color: #c2185b; }
+.ptag-sm   { background: rgba(2, 136, 209, 0.12);   color: #0277bd; }
+.ptag-ll   { background: rgba(0, 131, 143, 0.13);   color: #00838f; }
+.ptag-hc   { background: rgba(211, 47, 47, 0.11);   color: #c62828; }
+.ptag-rec  { background: rgba(158, 157, 36, 0.16);  color: #827717; }
+.ptag-eval { background: rgba(69, 90, 100, 0.13);   color: #455a64; }
+.ptag-ml   { background: rgba(63, 81, 181, 0.12);   color: #3949ab; }
+
+/* クリックフィルタ用の状態 */
+.md-typeset .ptag--clickable {
+  cursor: pointer;
+}
+
+.md-typeset .ptag--active {
+  outline: 2px solid currentColor;
+  outline-offset: 1px;
+}
+
+.md-typeset .ptag--dimmed {
+  opacity: 0.4;
+}
+
+.md-typeset button.pub-filter-reset {
+  display: block;
+  margin: 0.6em 0 0;
+  padding: 0.15em 1em;
+  font-size: 0.65rem;
+  border-radius: 1em;
+}
+
+/* ニュースの「もっと見る」ボタン */
+.md-typeset button.news-more {
+  display: block;
+  margin: 1em auto 0;
+  padding: 0.25em 1.6em;
+  font-size: 0.65rem;
+  border-radius: 1em;
+}
+
+/* 研究業績の表示切り替え（セクション別／年月順） */
+.md-typeset .pub-sort {
+  margin: 1.2em 0 0.4em;
+}
+
+.md-typeset .pub-sort .md-button {
+  margin: 0 0.4em 0 0;
+  padding: 0.15em 1.2em;
+  font-size: 0.65rem;
+  border-radius: 1em;
+}
+
+.md-typeset .pub-sort .md-button--active {
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+[data-md-color-scheme="slate"] .ptag-mm   { color: #64b5f6; }
+[data-md-color-scheme="slate"] .ptag-be   { color: #ffb74d; }
+[data-md-color-scheme="slate"] .ptag-bc   { color: #81c784; }
+[data-md-color-scheme="slate"] .ptag-ir   { color: #4db6ac; }
+[data-md-color-scheme="slate"] .ptag-llm  { color: #ba68c8; }
+[data-md-color-scheme="slate"] .ptag-uba  { color: #f06292; }
+[data-md-color-scheme="slate"] .ptag-sm   { color: #4fc3f7; }
+[data-md-color-scheme="slate"] .ptag-ll   { color: #4dd0e1; }
+[data-md-color-scheme="slate"] .ptag-hc   { color: #e57373; }
+[data-md-color-scheme="slate"] .ptag-rec  { color: #dce775; }
+[data-md-color-scheme="slate"] .ptag-eval { color: #b0bec5; }
+[data-md-color-scheme="slate"] .ptag-ml   { color: #9fa8da; }
+
+/* ---- テーブル ---- */
+.md-typeset table:not([class]) {
+  border-radius: 0.4em;
+  box-shadow: 0 1px 4px rgba(22, 78, 140, 0.08);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+/* ---- フッター ---- */
+.md-footer-meta {
+  background: var(--md-primary-fg-color--dark);
+}
