@@ -25,7 +25,7 @@
 - :material-account-school:{ .middle } <span class="member-grade">M1</span><br>池田 智哉 / Tomoya Ikeda<br><span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-mm">マルチモーダル / Multimodal</span>
 - :material-account-school:{ .middle } <span class="member-grade">M1</span><br>馬田 光琉 / Hikaru Umada<br><span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span>
 - :material-account-school:{ .middle } <span class="member-grade">M1</span><br>林 央祐 / Ousuke Hayashi<br><span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-bc">行動変容 / Behavior Change</span> <span class="ptag ptag-sm">ソーシャルメディア / Social Media</span>
-- :material-account-school:{ .middle } <span class="member-grade">M1</span><br>山﨑 豪士 / Takeshi Yamazaki<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ts">交通安全 / Traffic Safety</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
+- :material-account-school:{ .middle } <span class="member-grade">M1</span><br>山﨑 豪士 / Takeshi Yamazaki<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
 
 </div>
 
@@ -93,4 +93,4 @@
   <span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
 - 山﨑 豪士：「マルチモーダルデータに基づく運転手の関心物体推定に関する研究」<br>
   Takeshi Yamazaki: Estimating objects of driver interest based on multimodal data<br>
-  <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ts">交通安全 / Traffic Safety</span>
+  <span class="ptag ptag-mm">マルチモーダル / Multimodal</span>

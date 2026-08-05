@@ -334,7 +334,6 @@
 .ptag-llm  { background: rgba(106, 27, 154, 0.12);  color: #6a1b9a; }
 .ptag-uba  { background: rgba(194, 24, 91, 0.11);   color: #c2185b; }
 .ptag-sm   { background: rgba(2, 136, 209, 0.12);   color: #0277bd; }
-.ptag-ts   { background: rgba(93, 64, 55, 0.13);    color: #5d4037; }
 .ptag-ll   { background: rgba(0, 131, 143, 0.13);   color: #00838f; }
 .ptag-hc   { background: rgba(211, 47, 47, 0.11);   color: #c62828; }
 .ptag-rec  { background: rgba(158, 157, 36, 0.16);  color: #827717; }
@@ -397,7 +396,6 @@
 [data-md-color-scheme="slate"] .ptag-llm  { color: #ba68c8; }
 [data-md-color-scheme="slate"] .ptag-uba  { color: #f06292; }
 [data-md-color-scheme="slate"] .ptag-sm   { color: #4fc3f7; }
-[data-md-color-scheme="slate"] .ptag-ts   { color: #bcaaa4; }
 [data-md-color-scheme="slate"] .ptag-ll   { color: #4dd0e1; }
 [data-md-color-scheme="slate"] .ptag-hc   { color: #e57373; }
 [data-md-color-scheme="slate"] .ptag-rec  { color: #dce775; }
