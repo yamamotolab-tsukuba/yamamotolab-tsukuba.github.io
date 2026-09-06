@@ -58,7 +58,7 @@ nav:
   - 研究 / Research:
       - 研究内容 / Research Themes: research.md
       - プロジェクト / Projects: projects.md
-      - 研究業績 / Publications: publications.md
+  - 研究業績 / Publications: publications.md
   - メンバー / People:
       - メンバー一覧 / Members: members.md
       - 教員紹介 / Faculty: faculty.md
