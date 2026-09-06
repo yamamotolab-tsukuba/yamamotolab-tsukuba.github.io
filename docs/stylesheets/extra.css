@@ -7,8 +7,10 @@
   --md-primary-fg-color: #164e8c;
   --md-primary-fg-color--light: #3a76b8;
   --md-primary-fg-color--dark: #0e3763;
-  --md-accent-fg-color: #0e7fd8;
-  --lab-accent-gradient: linear-gradient(135deg, #164e8c 0%, #0e7fd8 100%);
+  /* 通常サイズのリンク文字でも白背景に対して4.5:1以上を確保 */
+  --md-accent-fg-color: #086fb9;
+  --lab-accent-gradient: linear-gradient(135deg, #164e8c 0%, #086fb9 100%);
+  --lab-focus-ring: #005fcc;
 }
 
 [data-md-color-scheme="slate"] {
@@ -17,9 +19,10 @@
   --md-primary-fg-color--dark: #0e3763;
   --md-accent-fg-color: #4da3e8;
   --md-default-bg-color: #14181f;
-  --lab-accent-gradient: linear-gradient(135deg, #1a5da8 0%, #4da3e8 100%);
+  --lab-accent-gradient: linear-gradient(135deg, #123f70 0%, #3a76b8 100%);
   /* リンク色：プライマリ（濃紺）のままだと暗背景で視認性が悪いため明るい青に */
   --md-typeset-a-color: #6cb2f0;
+  --lab-focus-ring: #ffd166;
 }
 
 /* palette.css の複合セレクタ（scheme×primary）より優先させるための上書き */
@@ -27,11 +30,44 @@
   --md-typeset-a-color: #6cb2f0;
 }
 
+/* ダーク背景では濃紺の既定ボタン色を使わない */
+[data-md-color-scheme="slate"] .md-typeset .md-button {
+  border-color: #6cb2f0;
+  color: #6cb2f0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary,
+[data-md-color-scheme="slate"] .md-typeset .md-button--active,
+[data-md-color-scheme="slate"] .md-typeset .md-button:focus,
+[data-md-color-scheme="slate"] .md-typeset .md-button:hover {
+  border-color: #3a76b8;
+  background-color: #3a76b8;
+  color: #fff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a.doi-link:hover {
+  border-color: #3a76b8;
+  background-color: #3a76b8;
+  color: #fff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .lab-hero .md-button {
+  border-color: rgba(255, 255, 255, 0.85);
+  color: #fff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .lab-hero .md-button:hover,
+[data-md-color-scheme="slate"] .md-typeset .lab-hero .md-button:focus {
+  border-color: #fff;
+  background-color: #fff;
+  color: #164e8c;
+}
+
 /* ---- タイポグラフィ ---- */
-/* 本文をひと回り小さく（Material標準 .8rem=16px → .75rem=15px） */
+/* Material標準相当の16pxを保ち、日英併記の長文でも行間を確保する */
 .md-typeset {
-  font-size: 0.75rem;
-  line-height: 1.75;
+  font-size: 0.8rem;
+  line-height: 1.8;
 }
 
 .md-typeset h1 {
@@ -79,16 +115,8 @@
   letter-spacing: 0.03em;
 }
 
-/* ---- レイアウト：左ナビゲーションを非表示にしてコンテンツ幅を拡大 ---- */
-/* 上部タブが表示されるデスクトップ幅では左サイドバーは冗長なので隠す
-   （狭い画面ではハンバーガーメニューとして必要なため残す） */
-@media screen and (min-width: 76.25em) {
-  .md-sidebar--primary {
-    display: none;
-  }
-}
-
-/* ページ全体の最大幅も少し広げる（Material標準は61rem） */
+/* ---- レイアウト ---- */
+/* 研究・メンバー配下のページへ移動しやすいよう、階層ナビゲーションを残す */
 .md-grid {
   max-width: 66rem;
 }
@@ -112,8 +140,8 @@
 
 .lab-hero p {
   margin: 0.4em 0;
-  color: rgba(255, 255, 255, 0.92);
-  font-size: 0.75em;
+  color: #fff;
+  font-size: 0.8rem;
 }
 
 .lab-hero .md-button {
@@ -157,13 +185,39 @@
   color: var(--md-accent-fg-color);
 }
 
+/* ---- 研究ページの図 ---- */
+.md-typeset .research-figure {
+  margin: 1.1rem 0 0.45rem;
+}
+
+.md-typeset .research-figure > a {
+  display: block;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.md-typeset .research-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.md-typeset .research-figure figcaption {
+  margin-top: 0.45rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
 /* ---- ニュース（カード型グリッド） ---- */
 .md-typeset .lab-news ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
   gap: 0.8rem;
 }
 
@@ -190,7 +244,7 @@
   border-radius: 1em;
   background: var(--md-primary-fg-color);
   color: #fff;
-  font-size: 0.72em;
+  font-size: 0.7rem;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -250,7 +304,7 @@
   border-radius: 1em;
   background: var(--md-primary-fg-color);
   color: #fff;
-  font-size: 0.68em;
+  font-size: 0.7rem;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -281,8 +335,8 @@
   border-radius: 1em;
   background: rgba(255, 179, 0, 0.16);
   border: 1px solid rgba(255, 179, 0, 0.45);
-  color: #9a6b00;
-  font-size: 0.6rem;
+  color: #805800;
+  font-size: 0.7rem;
   font-weight: 700;
   line-height: 1.6;
   vertical-align: 0.12em;
@@ -302,7 +356,7 @@
   border: 1px solid var(--md-accent-fg-color);
   border-radius: 1em;
   color: var(--md-accent-fg-color);
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 700;
   line-height: 1.55;
   vertical-align: 0.12em;
@@ -320,7 +374,7 @@
   margin: 0 0.12em;
   padding: 0.02em 0.6em;
   border-radius: 1em;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 700;
   line-height: 1.6;
   vertical-align: 0.12em;
@@ -328,15 +382,15 @@
 }
 
 .ptag-mm   { background: rgba(25, 118, 210, 0.13);  color: #1565c0; }
-.ptag-be   { background: rgba(239, 108, 0, 0.14);   color: #e65100; }
-.ptag-bc   { background: rgba(46, 125, 50, 0.14);   color: #2e7d32; }
+.ptag-be   { background: rgba(239, 108, 0, 0.14);   color: #a83b00; }
+.ptag-bc   { background: rgba(46, 125, 50, 0.14);   color: #256b2a; }
 .ptag-ir   { background: rgba(0, 121, 107, 0.14);   color: #00695c; }
 .ptag-llm  { background: rgba(106, 27, 154, 0.12);  color: #6a1b9a; }
 .ptag-uba  { background: rgba(194, 24, 91, 0.11);   color: #c2185b; }
-.ptag-sm   { background: rgba(2, 136, 209, 0.12);   color: #0277bd; }
-.ptag-ll   { background: rgba(0, 131, 143, 0.13);   color: #00838f; }
+.ptag-sm   { background: rgba(2, 136, 209, 0.12);   color: #00649e; }
+.ptag-ll   { background: rgba(0, 131, 143, 0.13);   color: #006b74; }
 .ptag-hc   { background: rgba(211, 47, 47, 0.11);   color: #c62828; }
-.ptag-rec  { background: rgba(158, 157, 36, 0.16);  color: #827717; }
+.ptag-rec  { background: rgba(158, 157, 36, 0.16);  color: #626000; }
 .ptag-eval { background: rgba(69, 90, 100, 0.13);   color: #455a64; }
 .ptag-ml   { background: rgba(63, 81, 181, 0.12);   color: #3949ab; }
 
@@ -351,14 +405,17 @@
 }
 
 .md-typeset .ptag--dimmed {
-  opacity: 0.4;
+  /* opacityは文字のコントラストも下げるため、彩度だけを落とす */
+  opacity: 1;
+  filter: saturate(0.45);
 }
 
 .md-typeset button.pub-filter-reset {
   display: block;
   margin: 0.6em 0 0;
-  padding: 0.15em 1em;
-  font-size: 0.65rem;
+  min-height: 2.2rem;
+  padding: 0.3em 1em;
+  font-size: 0.75rem;
   border-radius: 1em;
 }
 
@@ -366,20 +423,25 @@
 .md-typeset button.news-more {
   display: block;
   margin: 1em auto 0;
-  padding: 0.25em 1.6em;
-  font-size: 0.65rem;
+  min-height: 2.2rem;
+  padding: 0.3em 1.6em;
+  font-size: 0.75rem;
   border-radius: 1em;
 }
 
 /* 研究業績の表示切り替え（セクション別／年月順） */
 .md-typeset .pub-sort {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
   margin: 1.2em 0 0.4em;
 }
 
 .md-typeset .pub-sort .md-button {
-  margin: 0 0.4em 0 0;
-  padding: 0.15em 1.2em;
-  font-size: 0.65rem;
+  margin: 0;
+  min-height: 2.2rem;
+  padding: 0.3em 1.2em;
+  font-size: 0.75rem;
   border-radius: 1em;
 }
 
@@ -401,6 +463,163 @@
 [data-md-color-scheme="slate"] .ptag-rec  { color: #dce775; }
 [data-md-color-scheme="slate"] .ptag-eval { color: #b0bec5; }
 [data-md-color-scheme="slate"] .ptag-ml   { color: #9fa8da; }
+
+/* ---- 操作性・アクセシビリティ ---- */
+.md-typeset [hidden],
+.lab-tooltip[hidden] {
+  display: none !important;
+}
+
+.md-typeset button.ptag {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  font-family: inherit;
+  text-align: inherit;
+  touch-action: manipulation;
+}
+
+.md-typeset button.ptag:hover {
+  box-shadow: inset 0 0 0 1px currentColor;
+}
+
+.md-typeset button.ptag[aria-pressed="true"]::before {
+  content: "✓ ";
+  font-weight: 800;
+}
+
+.md-typeset button.pub-filter-reset:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.md-typeset .pub-filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.md-typeset .pub-status {
+  margin: 0.45rem 0 1rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+}
+
+.lab-visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.md-typeset a:focus-visible,
+.md-typeset button:focus-visible,
+.md-typeset [tabindex]:not([tabindex="-1"]):focus-visible,
+.md-typeset a.focus-visible,
+.md-typeset button.focus-visible,
+.md-typeset [tabindex]:not([tabindex="-1"]).focus-visible {
+  outline: 3px solid var(--lab-focus-ring) !important;
+  outline-offset: 3px !important;
+}
+
+/* ヒーローの青い背景上では、白いフォーカスリングで3:1以上を確保する */
+.md-typeset .lab-hero a:focus-visible,
+.md-typeset .lab-hero a.focus-visible {
+  outline: 3px solid #fff !important;
+  outline-offset: 3px !important;
+}
+
+.md-typeset .grid.cards > ol > li:focus-within,
+.md-typeset .grid.cards > ul > li:focus-within,
+.md-typeset .lab-news li:focus-within,
+.md-typeset .lab-members li:focus-within {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 6px 16px rgba(22, 78, 140, 0.16);
+}
+
+.lab-tooltip-trigger {
+  touch-action: manipulation;
+}
+
+.lab-tooltip {
+  position: fixed;
+  z-index: 1000;
+  width: max-content;
+  max-width: min(22rem, calc(100vw - 1.2rem));
+  padding: 0.55rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 0.35rem;
+  background: #1d2733;
+  box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.28);
+  color: #fff;
+  font-size: 0.7rem;
+  line-height: 1.55;
+  text-align: start;
+  white-space: normal;
+  pointer-events: auto;
+}
+
+[data-md-color-scheme="slate"] .lab-tooltip {
+  border-color: rgba(20, 24, 31, 0.25);
+  background: #f4f7fb;
+  color: #111820;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .md-typeset button.ptag,
+  .md-typeset .lab-tooltip-trigger.ptag,
+  .md-typeset .lab-tooltip-trigger.award-badge,
+  .md-typeset a.doi-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.2rem;
+    margin: 0.12rem;
+    padding: 0.35em 0.8em;
+  }
+
+  .md-typeset .grid.cards > ol > li:hover,
+  .md-typeset .grid.cards > ul > li:hover,
+  .md-typeset .lab-news li:hover,
+  .md-typeset .lab-members li:hover {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 44.984375em) {
+  .lab-hero {
+    padding: 1.25rem;
+  }
+
+  .lab-hero h1 {
+    font-size: 1.45em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
+  }
+
+  .md-typeset .grid.cards > ol > li:hover,
+  .md-typeset .grid.cards > ul > li:hover,
+  .md-typeset .lab-news li:hover,
+  .md-typeset .lab-members li:hover {
+    transform: none;
+  }
+}
 
 /* ---- テーブル ---- */
 .md-typeset table:not([class]) {

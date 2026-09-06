@@ -55,15 +55,19 @@ theme:
 
 nav:
   - ホーム / Home: index.md
-  - メンバー / Members:
-      - メンバー一覧 / Member List: members.md
+  - 研究 / Research:
+      - 研究内容 / Research Themes: research.md
+      - プロジェクト / Projects: projects.md
+      - 研究業績 / Publications: publications.md
+  - メンバー / People:
+      - メンバー一覧 / Members: members.md
       - 教員紹介 / Faculty: faculty.md
-  - 研究内容 / Research: research.md
-  - プロジェクト / Projects: projects.md
-  - 研究業績 / Publications: publications.md
+  - 配属・進学 / Join Us: join.md
+  - 共同研究 / Collaboration: collaboration.md
   - 連絡先 / Contact: contact.md
 
 markdown_extensions:
+  - meta
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -87,10 +91,10 @@ plugins:
       lang: ja
 
 extra_css:
-  - stylesheets/extra.css?v=4
+  - stylesheets/extra.css?v=5
 
 extra_javascript:
-  - javascripts/extra.js?v=3
+  - javascripts/extra.js?v=4
 
 extra:
   generator: false

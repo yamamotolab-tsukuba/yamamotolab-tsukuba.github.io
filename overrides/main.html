@@ -1,19 +1,63 @@
 {% extends "base.html" %}
 
-{#- Google検索の「サイト名」表示用メタデータ（og:site_name + WebSite構造化データ） -#}
 {% block extrahead %}
-  <meta property="og:site_name" content="山本研究室 - Yamamoto Lab" />
+  {{ super() }}
+  {% set meta_title = config.site_name if not page or not page.title or page.is_homepage else (page.title ~ " | " ~ config.site_name) %}
+  {% set meta_description = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
+  {% set social_image = config.site_url ~ "assets/og-image.jpg" %}
+
+  {% if not page or page.url == "404.html" %}
+  <meta name="robots" content="noindex, nofollow" />
+  {% endif %}
+
+  <meta property="og:site_name" content="{{ config.site_name | e }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ page.title | default(config.site_name, true) }}" />
-  <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:title" content="{{ meta_title | e }}" />
+  <meta property="og:description" content="{{ meta_description | e }}" />
+  {% if page and page.canonical_url %}
+  <meta property="og:url" content="{{ page.canonical_url | e }}" />
+  {% endif %}
+  <meta property="og:image" content="{{ social_image | e }}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="山本研究室 — 行動データ分析・モデリング研究室 / Yamamoto Lab" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ meta_title | e }}" />
+  <meta name="twitter:description" content="{{ meta_description | e }}" />
+  <meta name="twitter:image" content="{{ social_image | e }}" />
+  <meta name="twitter:image:alt" content="山本研究室 — 行動データ分析・モデリング研究室 / Yamamoto Lab" />
+
   {% if page and page.is_homepage %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "山本研究室 - Yamamoto Lab",
-    "alternateName": ["山本研究室", "Yamamoto Lab", "Yamamoto Laboratory", "行動データ分析・モデリング研究室"],
-    "url": "{{ config.site_url }}"
+    "@type": "ResearchOrganization",
+    "name": "山本研究室",
+    "alternateName": [
+      "Yamamoto Laboratory",
+      "Yamamoto Lab",
+      "行動データ分析・モデリング研究室"
+    ],
+    "url": "https://yamamotolab-tsukuba.github.io/",
+    "description": "筑波大学の山本研究室は，行動科学と情報科学を組み合わせ，人の行動と意思決定をデータから研究しています．",
+    "parentOrganization": {
+      "@type": "CollegeOrUniversity",
+      "name": "筑波大学",
+      "alternateName": "University of Tsukuba",
+      "url": "https://www.tsukuba.ac.jp/"
+    },
+    "member": {
+      "@type": "Person",
+      "name": "山本 修平",
+      "alternateName": "Shuhei Yamamoto",
+      "sameAs": [
+        "https://researchmap.jp/shuhei_yamamoto",
+        "https://trios.tsukuba.ac.jp/researcher/0000004888"
+      ]
+    }
   }
   </script>
   {% endif %}
