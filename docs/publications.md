@@ -1,13 +1,9 @@
----
-description: 山本研究室メンバーおよび山本修平による論文誌、国際会議、国内会議等の研究業績一覧です．
----
-
 # 研究業績 / Publications
 
 !!! info "このページの見方 / How to Read This Page"
-    各業績には，研究内容の特徴を表すトピックラベルを付与しています．**下のトピックボタンを選択すると，そのトピックの業績のみを表示できます**．受賞歴のある業績には <span class="award-badge" title="選択またはフォーカスすると賞名が表示されます">🏆 受賞 / Award</span> バッジが付いています．バッジを選択またはフォーカスすると賞名が表示されます．DOI・Linkバッジからは出版元の論文ページ・予稿にアクセスできます．
+    各業績には，研究内容の特徴を表すトピックラベルを付与しています．**バッジをクリックすると，そのトピックの業績のみを表示できます**．受賞歴のある業績には <span class="award-badge" title="バッジにカーソルを合わせると賞名が表示されます">🏆 受賞 / Award</span> バッジが付いています（カーソルを合わせると賞名が表示されます）．DOI・Linkバッジからは出版元の論文ページ・予稿にアクセスできます．
 
-    <span lang="en">Each publication is labeled with topics that characterize the research. **Select a topic button below to filter the list.** Award-winning publications are marked with an award badge; select or focus it to read the award name. DOI / Link badges lead to the publisher's page or proceedings.</span>
+    Each publication is labeled with topics that characterize the research. **Click a badge to show only the publications with that topic.** Award-winning publications are marked with an award badge — hover over it to see the award name. The DOI / Link badges lead to the publisher's page or proceedings for each publication.
 
     <span class="ptag ptag-mm">マルチモーダル / Multimodal</span>
     <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span>
@@ -21,11 +17,6 @@ description: 山本研究室メンバーおよび山本修平による論文誌�
     <span class="ptag ptag-rec">推薦 / Recommendation</span>
     <span class="ptag ptag-eval">評価基盤 / Evaluation Resources</span>
     <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
-
-!!! note "収録範囲 / Scope"
-    本ページには，山本研究室のメンバーによる成果に加えて，山本修平が2024年3月の筑波大学着任以前に関わった成果も掲載しています．本一覧への掲載は，すべての研究が現在の山本研究室で実施されたことを意味しません．各成果の著者，発表年，原典をご確認ください．
-
-    <span lang="en">This page includes work by Yamamoto Laboratory members as well as work involving Shuhei Yamamoto before he joined the University of Tsukuba in March 2024. Inclusion here does not mean that every study was conducted in the current laboratory. Please refer to each entry's authors, publication year, and original source.</span>
 
 ## 論文誌 / Journal Papers
 
@@ -94,7 +85,7 @@ description: 山本研究室メンバーおよび山本修平による論文誌�
 1. 馬田 光琉, 山本 修平, “行動経済学的特性を付与した大規模言語モデルによる消費行動予測”, 人工知能学会全国大会 (JSAI2025), 1D3-OS-24a-03, 大阪国際会議場, 2025年5月.<br>[DOI](https://doi.org/10.11517/pjsai.JSAI2025.0_1D3OS24a03){ .doi-link } <span class="ptag ptag-llm">大規模言語モデル / LLM</span> <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span>
 1. 後藤 侑美, 山本 修平, “就職活動における情報探索行動と時間選好の関係のモデル化”, 人工知能学会全国大会 (JSAI2025), 1D3-OS-24a-02, 大阪国際会議場, 2025年5月.<br>[DOI](https://doi.org/10.11517/pjsai.JSAI2025.0_1D3OS24a02){ .doi-link } <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span>
 1. 山本 修平, 神門 典子, “時間的近接性を用いたクロスモーダル密ベクトル検索”, 電子情報通信学会 LOIS研究会 技術報告, Vol. 124, No. 334, pp. 56-61, 熊本市国際交流会館, 2025年1月.<br>[Link](https://ken.ieice.org/ken/paper/20250116Ic6x/){ .doi-link } <span class="award-badge" title="LOIS研究賞・グッドプレゼンテーション賞">🏆 受賞 / Award</span> <span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ir">情報検索 / Information Retrieval</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
-1. 山本 修平, 赤木 康紀, 冨永 登夢, 瀧本 祥章, 倉島 健, 戸田 浩之, “ユーザの時間選好を考慮したメッセージ提示が健康行動に与える影響”, マルチメディア, 分散, 協調とモバイル (DICOMO2023) シンポジウム, pp. 475-485, 富山国際会議場, 2023年7月.<br>[Link](https://ipsj.ixsq.nii.ac.jp/records/228100){ .doi-link } <span class="award-badge" title="優秀論文賞">🏆 受賞 / Award</span> <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-bc">行動変容 / Behavior Change</span> <span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
+1. 山本 修平, 赤木 康紀, 冨永 登夢, 瀧本 祥章, 倉島 健, 戸田 浩之, “ユーザの時間選好を考慮したメッセージ提示が健康行動に与える影響”, マルチメディア, 分散, 協調とモバイル (DICOMO2023) シンポジウム, pp. 475-485, 富山国際会議場, 2023年7月.<br><span class="award-badge" title="優秀論文賞">🏆 受賞 / Award</span> <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-bc">行動変容 / Behavior Change</span> <span class="ptag ptag-hc">ヘルスケア / Healthcare</span>
 1. 山本 修平, 冨永 登夢, 倉島 健, “行動履歴を用いた現在バイアスの推定”, 人工知能学会全国大会 (JSAI2023), 大阪城ホール, 2023年6月.<br>[DOI](https://doi.org/10.11517/pjsai.JSAI2023.0_3H1GS1004){ .doi-link } <span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
 1. 冨永 登夢, 小林 将理, 山本 修平, 倉島 健, 戸田 浩之, “統計的因果探索に基づく体重維持率予測手法の提案”, 人工知能学会全国大会 (JSAI2023), 大阪城ホール, 2023年6月.<br>[DOI](https://doi.org/10.11517/pjsai.JSAI2023.0_2D6GS303){ .doi-link } <span class="ptag ptag-hc">ヘルスケア / Healthcare</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
 1. 山本 修平, 冨永 登夢, 倉島 健, 戸田 浩之, 西岡 秀一, “日々の行動データを用いた時間割引率の推定”, マルチメディア, 分散, 協調とモバイル (DICOMO2022) シンポジウム, pp. 17-27, オンライン, 2022年7月.<br><span class="ptag ptag-be">行動経済学 / Behavioral Economics</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
@@ -131,3 +122,4 @@ description: 山本研究室メンバーおよび山本修平による論文誌�
 1. 水沼 友宏, 山本 修平, 山口 裕太郎, 島田 諭, 池内 淳, 佐藤 哲司, “Twitterにおけるバースト状態に関する実証的研究”, 第5回知識共有コミュニティワークショップ論文集, pp. 11-20, 福山, 2012年10月.<br><span class="ptag ptag-sm">ソーシャルメディア / Social Media</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
 1. 山本 修平, 佐藤 哲司, “環境に適応する実生活情報の提示法”, マルチメディア，分散，協調とモバイル (DICOMO2012) シンポジウム, pp. 266–273, 新潟県山代温泉, 2012年7月.<br><span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
 1. 山本 修平, 佐藤 哲司, “Twitterからの実生活情報の抽出法の提案”, 第4回データ工学と情報マネジメントに関するフォーラム (DEIM2012), 2012年3月.<br>[Link](https://db-event.jpn.org/deim2012/proceedings/final-pdf/f3-4.pdf){ .doi-link } <span class="ptag ptag-sm">ソーシャルメディア / Social Media</span> <span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
+

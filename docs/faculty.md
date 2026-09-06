@@ -1,7 +1,3 @@
----
-description: 山本研究室の教員・山本修平の所属、経歴、研究分野、研究資金、担当授業、学協会活動を紹介します．
----
-
 # 教員紹介 / Faculty
 
 ## 山本 修平 / Shuhei Yamamoto
@@ -75,6 +71,6 @@ See the [Projects page](projects.md) for an overview of each project.
 ## 受賞 / Awards
 
 !!! info ""
-    受賞歴は[研究業績](publications.md)のページをご覧ください．業績リスト中の <span class="award-badge" title="選択またはフォーカスすると賞名が表示されます">🏆 受賞 / Award</span> バッジを選択またはフォーカスすると賞名が表示されます．
+    受賞歴は[研究業績](publications.md)のページをご覧ください．業績リスト中の <span class="award-badge" title="カーソルを合わせると賞名が表示されます">🏆 受賞 / Award</span> バッジにカーソルを合わせると賞名が表示されます．
 
-    <span lang="en">See the [Publications](publications.md) page. Select or focus an award badge to read the award name.</span>
+    See the [Publications](publications.md) page — hover over the award badges to see the award names.
