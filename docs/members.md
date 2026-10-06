@@ -47,6 +47,7 @@
 
 - :material-account-search:{ .middle } <span class="member-grade">研究生 / RS</span><br>ラン テンイ / Tianyi Lan<br><span class="ptag ptag-uba">ユーザ行動分析 / User Behavior Analysis</span>
 - :material-account-search:{ .middle } <span class="member-grade">研究生 / RS</span><br>マ ウケン / Yuxuan Ma<br><span class="ptag ptag-mm">マルチモーダル / Multimodal</span> <span class="ptag ptag-ll">ライフログ / Lifelog</span> <span class="ptag ptag-ml">機械学習 / Machine Learning</span>
+- :material-account-search:{ .middle } <span class="member-grade">研究生 / RS</span><br>シャ ルイウェン / Jui-Wen Hsieh<br><span class="ptag ptag-ml">機械学習 / Machine Learning</span>
 
 </div>
 

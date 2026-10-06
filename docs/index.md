@@ -71,6 +71,9 @@ The Yamamoto Laboratory works with data on human behavior and decision-making ob
 
 <div class="lab-news" markdown>
 
+- <span class="news-date">2026.10</span> HSIEH JUI-WENさんが研究生として研究室に加入しました :party_popper:<br>Jui-Wen Hsieh joined the lab as a research student.
+- <span class="news-date">2026.09</span> ICIP2026 Grand Challenge（Urban Elements ReID）で，M1の山﨑さんが参加したデンソーITラボラトリとの共同研究チームが1位を獲得しました（[Kaggle Leaderboard](https://www.kaggle.com/competitions/urban-elements-re-id-challenge-2026/leaderboard){:target="_blank"}） :trophy:<br>A joint research team with DENSO IT Laboratory, including Yamazaki (M1), won first place in the ICIP2026 Grand Challenge on Urban Elements ReID ([Kaggle Leaderboard](https://www.kaggle.com/competitions/urban-elements-re-id-challenge-2026/leaderboard){:target="_blank"}).
+- <span class="news-date">2026.09</span> M1の林さんの論文がICADL2026にShort paperとして採録されました :page_facing_up:<br>Hayashi's (M1) paper was accepted as a short paper at ICADL2026.
 - <span class="news-date">2026.07</span> 電子情報通信学会LOIS研究会で池田さんがLOIS若手研究者賞を，山本がLOIS研究賞を受賞しました :trophy:<br>Ikeda received the LOIS Young Researcher Award and Shuhei Yamamoto received the LOIS Research Award at the IEICE LOIS workshop.
 - <span class="news-date">2026.06</span> 東京理科大学植松研究室，横浜市立大学戸田研究室と合同で研究発表会を開催しました :tada:<br>We held a joint research meeting with the Uematsu Lab (Tokyo University of Science) and the Toda Lab (Yokohama City University).
 - <span class="news-date">2026.04</span> LAN TIANYIさん，MA YUXUANさんが研究生として研究室に加入しました :party_popper:<br>Tianyi Lan and Yuxuan Ma joined the lab as research students.
